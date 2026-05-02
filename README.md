@@ -4,6 +4,10 @@
 SkillSphere is a modern web-based learning platform where students can browse courses, enroll, and manage their learning progress. It also includes authentication, profile management, and course exploration features.
 
 ---
+## 🚀 Live URL
+https://skillsphere-learning-platform-awl9.vercel.app/
+
+---
 
 ## ✨ Key Features
 
