@@ -1,8 +1,8 @@
-import LearningTips from "@/component/LearningTips";
-import PopularCourses from "@/component/PopularCourses";
-import Banner from "@/component/shared/Banner";
-import TopInstructors from "@/component/TopInstructor";
-import TrendingCourses from "@/component/TrendingCourses";
+import LearningTips from "@/components/LearningTips";
+import PopularCourses from "@/components/PopularCourses";
+import Banner from "@/components/shared/Banner";
+import TopInstructors from "@/components/TopInstructor";
+import TrendingCourses from "@/components/TrendingCourses";
 
 
 export default function Home() {

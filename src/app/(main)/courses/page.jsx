@@ -1,7 +1,6 @@
 "use client";
+import TopCourseCard from "@/components/TopCourseCard";
 import { motion } from "framer-motion";
-
-import TopCourseCard from '@/components/TopCourseCard';
 import React, { useEffect, useState } from 'react';
 
 const AllCoursePage = () => {
@@ -34,7 +33,7 @@ const AllCoursePage = () => {
                     placeholder="Search courses by title..."
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
-                    className="input input-bordered w-full max-w-xs bg-gray-100"
+                    className="input input-bordered w-full max-w-xs bg-base-100"
                 />
 
             </div>
