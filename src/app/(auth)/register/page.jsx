@@ -64,15 +64,12 @@ const RegisterPage = () => {
         className="w-full max-w-md bg-base-300 shadow-xl rounded-2xl p-8"
       >
 
-        {/* Title */}
         <h1 className="text-2xl font-bold text-center mb-6">
           Create Account 🚀
         </h1>
 
-        {/* Form */}
         <form className="space-y-4" onSubmit={handleSubmit(handleRegisterFunc)}>
 
-          {/* Name */}
           <div>
             <label className="text-sm font-medium">Full Name</label>
             <input
@@ -86,7 +83,6 @@ const RegisterPage = () => {
             )}
           </div>
 
-          {/* Photo URL */}
           <div>
             <label className="text-sm font-medium">Photo URL</label>
             <input
@@ -100,7 +96,6 @@ const RegisterPage = () => {
             )}
           </div>
 
-          {/* Email */}
           <div>
             <label className="text-sm font-medium">Email</label>
             <input
@@ -114,7 +109,6 @@ const RegisterPage = () => {
             )}
           </div>
 
-          {/* Password */}
           <div>
             <label className="text-sm font-medium">Password</label>
             <input
@@ -136,7 +130,6 @@ const RegisterPage = () => {
             )}
           </div>
 
-          {/* Submit Button */}
           <button
             type="submit"
             disabled={loading}
@@ -150,7 +143,6 @@ const RegisterPage = () => {
           </button>
         </form>
 
-        {/* Login Link */}
         <p className="text-center text-sm mt-5">
           Already have an account?{" "}
           <Link href="/login" className="text-blue-600 hover:underline">
