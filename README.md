@@ -46,6 +46,8 @@ https://skillsphere-learning-platform-awl9.vercel.app/
 ### Notifications
 - react-toastify
 
+### google authenticatio
+
 ### Database
 - mongodb
 
